@@ -10,4 +10,7 @@ Add Project
     wait until element is visible    ${Forwarder}
 
 
-Open Project
+Add Order GP
+    [Arguments]    ${OrderType}
+    click element    ${AddRecordButton}
+    click element    //ul[@class='menu-wrap menu']/li[.='${OrderType}']

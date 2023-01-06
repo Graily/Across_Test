@@ -2,11 +2,15 @@
 Chrm = "Chrome"
 Ff = "Firefox"
 
-# Login Page Data
+# Login Across Page Data
 
 UserName = "Supervisor"
 UserPassword = "Supervisor"
-AcrossUrl = "http://across-test.maticson-lab.ru/"
+AcrossUrl = "http://agrotera-test.maticson-lab.ru/"
+
+#Login Diacon Page Data
+
+DiaconUrl = "http://diacon-dev4.maticson-lab.ru/"
 
 # Home Page Data
 

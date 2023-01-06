@@ -1,9 +1,10 @@
 *** Settings ***
 Library  SeleniumLibrary
-Variables  ../Locators/Locators.py
 Variables  ../TestData/TestData.py
 Resource    ../KeywordsDefinationFiles/ModalWindow.robot
 Resource    ../KeywordsDefinationFiles/CommonCreatio.robot
+Variables  ../Locators/PageLocators.py
+
 *** Keywords ***
 Save page
     click element    ${SaveButton}
